@@ -1,0 +1,8 @@
+nav.navbar.navbar-default.navbar-fixed-top
+  .container
+    .navbar-header=link_to "The Blog" ,root_path ,class: 'navbar-brand'
+
+    ul.nav.navbar-nav.navbar-right
+      li=link_to "New Post" ,new_post_path
+      li=link_to "Account"
+      li=link_to "Sign Out"

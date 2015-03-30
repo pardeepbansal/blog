@@ -1,0 +1,9 @@
+.panel.panel-primary
+	.panel-heading
+		h3.panel-title =@post.title
+	.panel-body
+		= markdown(@post.body)
+		= link_to 'Edit', edit_post_path(@post), class: 'btn btn-default'
+
+		= link_to 'Back', posts_path, class: 'btn btn-primary'
+
