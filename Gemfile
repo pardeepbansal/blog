@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'masonry-rails'
+gem 'devise'
 gem 'redcarpet'
 gem "twitter-bootstrap-rails"
 gem 'simple_form'
